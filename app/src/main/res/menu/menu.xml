@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/telegram_page"
+        android:title="Visit Telegram Page"
+        />
+
+    <item
+        android:id="@+id/github"
+        android:title="Visit GitHub"
+        />
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_menu"
+        app:showAsAction="withText"
+        />
+
+
+</menu>

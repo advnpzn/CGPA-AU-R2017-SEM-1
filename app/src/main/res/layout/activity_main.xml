@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="84dp"
+        android:layout_height="41dp"
+        android:text="CGPA"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cgpa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="82dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        android:text="Physics/Chemistry Lab"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup4"
+        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79">
+
+        <RadioButton
+            android:id="@+id/chephy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/chephy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/chephy3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/chephy4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/chephy5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/chephy6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup4"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E.G."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="92dp"
+        android:layout_height="27dp"
+        android:text="Python Lab"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup6"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4"
+        app:layout_constraintVertical_bias="0.49" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76">
+
+        <RadioButton
+            android:id="@+id/che1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/che2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/che3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/che4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/che5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/che6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup5"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
+
+        <RadioButton
+            android:id="@+id/py1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/py2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/py3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/py4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/py5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/py6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79">
+
+        <RadioButton
+            android:id="@+id/eg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/eg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/eg3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/eg4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/eg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/eg6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup7"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4"
+        app:layout_constraintVertical_bias="0.58000004">
+
+        <RadioButton
+            android:id="@+id/pylab1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/pylab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/pylab3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/pylab4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/pylab5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/pylab6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup7"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup8"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.37">
+
+        <RadioButton
+            android:id="@+id/en1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/en2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/en3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/en4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/en5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/en6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup8"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioGroup9"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.35000002">
+
+        <RadioButton
+            android:id="@+id/m1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/m2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/m3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/m4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/m5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/m6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup9"
+        android:layout_width="60dp"
+        android:layout_height="202dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.39">
+
+        <RadioButton
+            android:id="@+id/phy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O" />
+
+        <RadioButton
+            android:id="@+id/phy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A+" />
+
+        <RadioButton
+            android:id="@+id/phy3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton
+            android:id="@+id/phy4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B+" />
+
+        <RadioButton
+            android:id="@+id/phy5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B" />
+
+        <RadioButton
+            android:id="@+id/phy6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup6"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/cgpa"
+        android:layout_width="119dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup8"
+        app:layout_constraintVertical_bias="0.26999998" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup7"
+        app:layout_constraintVertical_bias="0.25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
