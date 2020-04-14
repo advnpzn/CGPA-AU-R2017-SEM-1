@@ -272,8 +272,8 @@ public class MainActivity extends AppCompatActivity {
     public void onetimedia(){
         new AlertDialog.Builder(this)
                 .setTitle("Credits")
-                .setMessage("Developed by Aadhavan\nMade in Android Studio 3.6.1\nUsing JAVA and XML\nApp Version : 1.01 (beta)")
-                .setPositiveButton("ok", new DialogInterface.OnClickListener() {
+                .setMessage("Developed by adenosinetp10\nMade in Android Studio 3.6.1\nUsing JAVA and XML\nApp Version : 1.01")
+                .setPositiveButton("Close", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
